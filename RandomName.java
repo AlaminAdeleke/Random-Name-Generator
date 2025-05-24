@@ -17,7 +17,7 @@ public class RandomName
     //Ending vowel sounds
     public static final String[] vowels2 = {"a","a","a","e","e","e","e","i","i","o","o","u","ia","ey","eo","oa","y","ay", "oo", "ie", "ei"};
     
-    public static String maker(int syllables)
+    public static String make(int syllables)
     {
         //Create a blank name
         String name = "";
@@ -73,7 +73,7 @@ public class RandomName
         return name.substring(0,1).toUpperCase() + name.substring(1);
     }
     
-    public static String maker()
+    public static String make()
     {
         //Either one(25%), two(50%) or three(25%) syllables
         return maker(rNG.nextInt(2) + rNG.nextInt(2) + 1);
