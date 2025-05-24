@@ -16,11 +16,16 @@ public class RandomName
     public static final String[] vowels1 = {"a","a","a","a","e","e","e","e","i","i","o","o","u","ai","oa", "ou", "ei", "au", "ue"};
     //Ending vowel sounds
     public static final String[] vowels2 = {"a","a","a","e","e","e","e","i","i","o","o","u","ia","ey","eo","oa","y","ay", "oo", "ie", "ei"};
-    
+
+    /*************************************************************************
+     * A method that takes in the number of syllables for the name to have and
+     * creates and returns a random name using select sounds
+     *************************************************************************/
     public static String make(int syllables)
     {
         //Create a blank name
         String name = "";
+        //Boolean variable for whether the name begins with a vowel(true) or consonant(false)
         boolean isVowel;
         int num;
              
