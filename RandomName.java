@@ -37,7 +37,8 @@ public class RandomName
             name+= consonants1[rNG.nextInt(consonants1.length)];
             isVowel = false;
         }
-        
+
+        //For however many syllables it should have,
         for(int i = 0 ; i < syllables ; i++)
         {
             //if first letter is vowel
