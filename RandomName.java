@@ -8,12 +8,14 @@ import java.util.Random;
 public class RandomName
 {
     public static Random rNG = new Random();
+
+    //All sounds used in names(Repition of sounds to increase probability)
     //Starting and intermidiate consonant sounds
     public static final String[] consonants1 = {"b","c","d","f","g","h","j","k","l","m","n","p","r","s","t","v","w","x","y","z","bl","br","cl","cr","ch","dr","dw","fl","fh","fr","gl","gr","kh","kr","pl","pr","ph","qu","sl","sh","tr","th","vl","wr"};
     //Ending consonant sounds
     public static final String[] consonants2 = {"b","c","d","f","g","h","j","k","l","m","n","p","r","s","t","v","w","x","y","z","ch","ck","ph","que","sh","th"};
     //Starting and intermidiate vowel sounds
-    public static final String[] vowels1 = {"a","a","a","a","e","e","e","e","i","i","o","o","u","ai","oa", "ou", "ei", "au", "ue"};
+    public static final String[] vowels1 = {"a","a","a","a","e","e","e","e","i","i","o","o","u","ai","ia","oa", "ou", "ei", "au", "ue"};
     //Ending vowel sounds
     public static final String[] vowels2 = {"a","a","a","e","e","e","e","i","i","o","o","u","ia","ey","eo","oa","y","ay", "oo", "ie", "ei"};
 
