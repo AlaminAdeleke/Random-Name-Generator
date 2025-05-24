@@ -27,7 +27,7 @@ public class RandomName
     {
         //Create a blank name
         String name = "";
-        //Boolean variable for whether the name begins with a vowel(true) or consonant(false)
+        //Boolean variable for whether the most recent sound added to the string is a vowel(true) or consonant(false)
         boolean isVowel;
         int num;
              
